@@ -1,0 +1,86 @@
+<html> 
+  <head>
+    <style>
+       form {text-align: center
+        
+    }
+  
+    </style>
+    <meta charset="UTF-8" />
+    <title>Sign up</title>
+    <meta name="description" content="please enter your email and passowrd so you can use our website " />
+  </head>
+  <body>
+    <div>
+      <h1>university name </h1>
+    </div>
+<form action="" method="GET">
+    <fieldset>
+    <legend><b>Sign up</b></legend>
+    <div>
+        <label>Name</label>
+        <input type="text"   autofocus  required placeholder="please enter your first and last name" name="name" >
+             </div>
+             <br> 
+            <div>
+        <label>Email</label>
+        <input type="email"   required placeholder="Write A Valid Email" value="gh@nn.na" name="mail" >
+             </div> 
+      <br>
+    <div>
+        <label>passowrd</label>
+        <input type="password"
+         required placeholder=" please enter hard passowrd"
+          name="pass" 
+          
+          minlength="5"
+          maxlength="20" 
+        >
+      </div>
+      <b>Gender</b>
+      <div>
+        <input id="f" type="radio" name="gender" value="Female" checked />
+        <label for="f">Female</label>
+      </div>
+      <div>
+        <input id="m" type="radio" name="gender" value="male" />
+        <label for="m">Male</label>
+      </div>
+      <br>
+      <b>Choose your subjects</b>
+      <div>
+        <input id="OOP" type="checkbox" name="subjects" value="OOP" checked />
+        <label for="OOP">OOP</label>
+      </div>
+      <div>
+        <input id="DS" type="checkbox" name="subjects" value="Data structures" />
+        <label for="DS"> Data structures</label>
+      </div>
+      <div>
+        <input id="Math" type="checkbox" name="subjects" value="Math" />
+        <label for="Math">Math</label>
+      </div>
+      <div>
+        <input id="net" type="checkbox" name="subjects" value="networking" />
+        <label for="net">networking</label>
+      </div>
+      <br>
+      <b>How to pay</b>
+      <div>
+        <input id="cr" type="radio" name="payment" value="Credit and debit card" checked />
+        <label for="cr">Credit and debit card</label>
+      </div>
+      <div>
+        <input id="cash" type="radio" name="payment" value="cash" />
+        <label for="cash">Cash</label>
+      </div>
+      <div>
+        <input id="mob" type="radio" name="payment" value="Mobile wallet" />
+        <label for="mob">Mobile wallet</label>
+      </div>
+      <br>
+      <input type="submit" value="Sign up">
+    </fieldset>
+   </form>
+    </body>
+    </html>
